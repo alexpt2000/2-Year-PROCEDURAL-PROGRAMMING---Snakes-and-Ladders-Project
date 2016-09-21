@@ -1,0 +1,38 @@
+﻿Build started 11/01/2016 09:21:17.
+     1>Project "D:\GMIT\40440 - PROCEDURAL PROGRAMMING\Project Snakes and Ladders\GameAlex\Game\Game.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TC /errorReport:prompt game.c
+         game.c
+     1>d:\gmit\40440 - procedural programming\project snakes and ladders\gamealex\game\game.c(74): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>d:\gmit\40440 - procedural programming\project snakes and ladders\gamealex\game\game.c(81): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>d:\gmit\40440 - procedural programming\project snakes and ladders\gamealex\game\game.c(118): warning C4129: ' ': unrecognized character escape sequence
+     1>d:\gmit\40440 - procedural programming\project snakes and ladders\gamealex\game\game.c(166): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1270): note: see declaration of 'scanf'
+     1>d:\gmit\40440 - procedural programming\project snakes and ladders\gamealex\game\game.c(183): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1270): note: see declaration of 'scanf'
+     1>d:\gmit\40440 - procedural programming\project snakes and ladders\gamealex\game\game.c(218): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+     1>d:\gmit\40440 - procedural programming\project snakes and ladders\gamealex\game\game.c(226): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
+     1>d:\gmit\40440 - procedural programming\project snakes and ladders\gamealex\game\game.c(230): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
+     1>d:\gmit\40440 - procedural programming\project snakes and ladders\gamealex\game\game.c(244): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1270): note: see declaration of 'scanf'
+     1>d:\gmit\40440 - procedural programming\project snakes and ladders\gamealex\game\game.c(277): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+     1>d:\gmit\40440 - procedural programming\project snakes and ladders\gamealex\game\game.c(333): warning C4098: 'main': 'void' function returning a value
+     1>d:\gmit\40440 - procedural programming\project snakes and ladders\gamealex\game\game.c(335): warning C4098: 'main': 'void' function returning a value
+     1>d:\gmit\40440 - procedural programming\project snakes and ladders\gamealex\game\game.c(317): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+     1>d:\gmit\40440 - procedural programming\project snakes and ladders\gamealex\game\game.c(436): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _kbhit. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\conio.h(458): note: see declaration of 'kbhit'
+     1>d:\gmit\40440 - procedural programming\project snakes and ladders\gamealex\game\game.c(439): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\conio.h(452): note: see declaration of 'getch'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\GMIT\40440 - PROCEDURAL PROGRAMMING\Project Snakes and Ladders\GameAlex\Game\x64\Debug\Game.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\GMIT\40440 - PROCEDURAL PROGRAMMING\Project Snakes and Ladders\GameAlex\Game\x64\Debug\Game.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\GMIT\40440 - PROCEDURAL PROGRAMMING\Project Snakes and Ladders\GameAlex\Game\x64\Debug\Game.lib" /MACHINE:X64 x64\Debug\game.obj
+         Game.vcxproj -> D:\GMIT\40440 - PROCEDURAL PROGRAMMING\Project Snakes and Ladders\GameAlex\Game\x64\Debug\Game.exe
+     1>Done Building Project "D:\GMIT\40440 - PROCEDURAL PROGRAMMING\Project Snakes and Ladders\GameAlex\Game\Game.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.11
